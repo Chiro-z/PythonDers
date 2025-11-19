@@ -27,6 +27,11 @@ class LinkedListStack:
 
     def isEmpty(self):
         return self.head is None
+    def peek(self):
+     if self.head is None:
+        raise IndexError("Stack boş, peek() çağrılamaz.")
+     return self.head.veri
+        
 # Stack oluştur
 stack = LinkedListStack()
 
