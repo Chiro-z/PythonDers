@@ -34,3 +34,11 @@ class DizideYigin():# Sabit Dizi üzerinde Yığın yapısı
         self.yigin[self.top] = None
         self.top -= 1
         return tmp
+
+  def peek(self,):
+    if self.isEmpty():
+      return None
+
+    return self.yigin[self.top]
+
+
