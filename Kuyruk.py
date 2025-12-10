@@ -10,4 +10,5 @@ class DinamikBaslangicliKuyruk:
             """tail, verinin yazılacağı aktif bellek indeksi"""
             self.kuyruk[self.tail] = veri
             if self.tail == self.kapasite:
+                self.kapasite == self.boyut
             
